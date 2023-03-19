@@ -8,7 +8,7 @@ Python API wrapper for Gofile.io with extensive features such as uploading/downl
     from gofile import Gofile
     g = Gofile(token=user_token)
     
-    g.download_folder(default_path="/path/to/the/desired/folder")
+    g.download_folder(url="https://gofile.io/example_link",default_path="/path/to/the/desired/folder")
 
     >> [...]
 
